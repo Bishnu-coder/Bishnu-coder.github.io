@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     var username = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     console.log(username, password)
-    const url = 'http://localhost:8000'; // URL of the Python server
+    const url = "http://27.34.31.8:8080"; // URL of the Python server
     const message = username+","+password; // Text message to send in the request body
 
     fetch(url, {
