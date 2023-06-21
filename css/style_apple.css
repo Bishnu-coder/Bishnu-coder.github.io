@@ -6,6 +6,15 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.cursor{
+    width:20px;
+    height: 20px;
+    border: 2px solid cyan;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
 
 li,a,button{
     font-family: 'Montserrat', sans-serif;

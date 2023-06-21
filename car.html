@@ -32,5 +32,15 @@
         </p>
         <a href="https://github.com/Bishnu-coder/my_python_projects/tree/save_the_car_final"><Button>Download source code</Button></a>
     </div>
+    <div class="cursor"></div>
+    <script>
+        const cursor = document.querySelector(".cursor")
+        document.addEventListener("mousemove", e => {
+            cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px")
+        })
+        document.addEventListener('click', () => {
+            cursor.setAttribute('style', "top: "+0+"px; left: "+0+"px")
+        })
+    </script>
 </body>
 </html>
