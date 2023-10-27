@@ -1,1 +1,0 @@
-For scam alert

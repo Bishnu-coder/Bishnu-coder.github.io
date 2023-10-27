@@ -84,6 +84,19 @@ h5#go{
     animation: text2 20s;
     border-right: solid #edf0f1;
 }
+
+h2#sans{
+    padding-left: 39.5%;
+    padding-top: 1.5%;
+    color: #edf0f1;
+    letter-spacing: 3px;
+    font-size: 23px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text2 20s;
+    border-right: solid #edf0f1;
+}
+
 .recent{
     color: #edf0f1;
     letter-spacing: 4px;
@@ -135,6 +148,6 @@ h5#go{
      width: 0ch;
     }
     50%{
-     width: 17ch;
+     width: 22ch;
     }
  }
