@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+}
+
+
+body{
+    background-color: black;
+    color: palegreen;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.click_pad{
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+#box{
+    background-color: azure;
+    width: 20px;
+    height: 200px;
+    border-radius: 15px;
+    float: right;
+    margin-right: 20%;
+
+}
+
+#cps{
+    float: bottom;
+    position: relative;
+}
+
+#bar{
+    background-color: orangered;
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 20px;
+    margin-right: 8%;
+}
