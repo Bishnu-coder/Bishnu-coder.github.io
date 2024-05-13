@@ -9,6 +9,7 @@ const pad = document.querySelector(".click_pad")
 const timer_text = document.getElementById("timer")
 const bar = document.getElementById("bar")
 const cps = document.getElementById("cps")
+const box = document.getElementById("box")
 
 function display()
 {
@@ -60,8 +61,14 @@ function timer()
 function ms()
 {
     time_ms = time_ms+1
-    bar.setAttribute("style","height: "+(clicks/(time_ms))*10000+"px;")
+    let height_bar = (clicks/(time_ms))*10000
+    let height_box = box.offsetHeight
+    bar.setAttribute("style","height: "+ height_bar+"px;")
     cps.innerHTML = (clicks/(60-time)) + " -CPS"
+    if(height_bar >= height_box)
+    {
+        box.setAttribute("style","height:"+(height_bar + 25)+"px;")
+    }
 }
 // starts the click function to record clicks
 click()
