@@ -11,10 +11,9 @@ body{
 
 .click_pad{
     height: 200px;
-    width: 200px;
+    width: 30%;
     background-color: whitesmoke;
     cursor: pointer;
-    margin-left: 20%;
 }
 
 #box{
@@ -23,8 +22,6 @@ body{
     height: 200px;
     border-radius: 15px;
     float: right;
-    margin-right: 20%;
-
 }
 
 #cps{
@@ -36,9 +33,11 @@ body{
     background-color: orangered;
     position: relative;
     float: right;
-    box-sizing: border-box;
     overflow: hidden;
     border-radius: 15px;
     width: 20px;
-    margin-right: 8%;
+}
+
+.side {
+    display: inline;
 }
