@@ -1,51 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initialscale=1.0">
     <title>applegame - py gamer</title>
     <link rel="stylesheet" href="style_apple.css">
 </head>
+
 <body>
     <header>
-    <img class="logo" src="/index/logo_nobg.png" >
-    <nav>
-        <ul class="links">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA/videos">videos</a></li>
-            <li><a href="https://github.com/Bishnu-coder">Github</a></li>
-            <li><a href="/projects/project.html">Projects</a></li>
-        </ul>
-    </nav>
-    <a class="cta" href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA"><button>View channel</button></a>
+        <img class="logo" src="/index/logo_nobg.png">
+        <nav>
+            <ul class="links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA/videos">videos</a></li>
+                <li><a href="https://github.com/Bishnu-coder">Github</a></li>
+                <li><a href="/projects/project.html">Projects</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA"><button>View channel</button></a>
     </header>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
     <img src="apple/lv1.jpg" alt="" id="thumb">
     <h1>Level 1:</h1>
-    <p>There an apple falling which you have to catch using the basket present at bottom <br> the score increase with more apple catched <br> and if you miss 1 heart is gone you have three <br> when you reach 10 score you go to level two</p>
+    <p>There an apple falling which you have to catch using the basket present at bottom <br> the score increase with
+        more apple catched <br> and if you miss 1 heart is gone you have three <br> when you reach 10 score you go to
+        level two</p>
     <br>
     <img src="apple/lv2.jpg" alt="" id="thumb">
     <h1>Level 2</h1>
     <p>All the things are same as level one <br>
-    Except here bombs fall which can kill you<br>
-    when you score 25 you go to level 3</p>
+        Except here bombs fall which can kill you<br>
+        when you score 25 you go to level 3</p>
     <img src="apple/lv3.jpg" alt="" id="thumb">
     <br>
     <h1>Level 3</h1>
     <p>Every thing same <br>
-    Except the heart that fall <br>
-    in this level now create the high score in this level</p>
+        Except the heart that fall <br>
+        in this level now create the high score in this level</p>
     <br>
     <h1>Download code</h1>
     <a href="https://github.com/Bishnu-coder/python_apple_game"><button>Download source code</button></a>
-    <div class="cursor"></div>
-    <script>
-        const cursor = document.querySelector(".cursor")
-        document.addEventListener("mousemove", e => {
-            cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px")
-        })
-        document.addEventListener('click', () => {
-            cursor.setAttribute('style', "top: "+0+"px; left: "+0+"px")
-        })
-    </script>
+    <script src="apple.js"></script>
 </body>
+
 </html>

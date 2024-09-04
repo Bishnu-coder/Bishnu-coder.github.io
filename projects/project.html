@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initialscale=1.0">
     <title>pygamer - Projects</title>
     <link rel="stylesheet" href="style_projects.css">
 </head>
+
 <body>
     <header>
-    <img class="logo" src="/index/logo_nobg.png" >
-    <nav>
-        <ul class="links">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA/videos">videos</a></li>
-            <li><a href="https://github.com/Bishnu-coder">Github</a></li>
-            <li><a href="project.html">Projects</a></li>
-        </ul>
-    </nav>
-    <a class="cta" href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA"><button>View channel</button></a>
+        <img class="logo" src="/index/logo_nobg.png">
+        <nav>
+            <ul class="links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA/videos">videos</a></li>
+                <li><a href="https://github.com/Bishnu-coder">Github</a></li>
+                <li><a href="project.html">Projects</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA"><button>View channel</button></a>
     </header>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
     <div class="container">
         <div class="box">
             <img src="/index/car.jpg" alt="">
@@ -30,16 +52,18 @@
             <p>Make a simple game using pygame|python project|pygame project|For beginers</p>
             <a href="/apple/apple.html" id="lm"><button>Learn more>></button></a>
         </div>
+        <div class="box">
+            <img src="/click/click.png" id="apple">
+            <p>A simple click speed checker made using javascript</p>
+            <a href="/click/click.html" id="lm"><button>Try Now>></button></a>
+        </div>
+        <div class="box">
+            <img src="/crossy_road/bg.jpg" id="apple">
+            <p>update for next part crossy road in python</p>
+            <a href="/crossy_road/part1/main.html" id="lm"><button>Learn more>></button></a>
+        </div>
     </div>
-    <div class="cursor"></div>
-    <script>
-        const cursor = document.querySelector(".cursor")
-        document.addEventListener("mousemove", e => {
-            cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px")
-        })
-        document.addEventListener('click', () => {
-            cursor.setAttribute('style', "top: "+0+"px; left: "+0+"px")
-        })
-    </script>
+   <script src="project.js"></script>
 </body>
+
 </html>

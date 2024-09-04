@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initialscale=1.0">
     <title>How to make a car racing game in pygame</title>
     <link rel="stylesheet" href="style_car.css">
 </head>
+
 <body>
     <header>
-    <img class="logo" src="/index/logo_nobg.png" >
-    <nav>
-        <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA/videos">videos</a></li>
-            <li><a href="https://github.com/Bishnu-coder">Github</a></li>
-            <li><a href="/projects/project.html">Projects</a></li>
-        </ul>
-    </nav>
-    <a class="cta" href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA"><button>View channel</button></a>
+        <img class="logo" src="/index/logo_nobg.png">
+        <nav>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA/videos">videos</a></li>
+                <li><a href="https://github.com/Bishnu-coder">Github</a></li>
+                <li><a href="/projects/project.html">Projects</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="https://www.youtube.com/channel/UCNj9jZBVxRWm7TA5g2K7XtA"><button>View channel</button></a>
     </header>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
     <div class="info">
         <img src="/index/car.jpg" alt="">
         <h1>It is a car racing game made by me</h1>
-        <p>It is a game made using python 
+        <p>It is a game made using python
             <br> it is nice for beginer.
             <br> It a very basic game in future You will
-            <br> get better projects to see and also better 
+            <br> get better projects to see and also better
             <br> exlanation than this.Thank You
         </p>
-        <a href="https://github.com/Bishnu-coder/my_python_projects/tree/save_the_car_final"><Button>Download source code</Button></a>
+        <a href="https://github.com/Bishnu-coder/my_python_projects/tree/save_the_car_final"><Button>Download source
+                code</Button></a>
     </div>
-    <div class="cursor"></div>
-    <script>
-        const cursor = document.querySelector(".cursor")
-        document.addEventListener("mousemove", e => {
-            cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px")
-        })
-        document.addEventListener('click', () => {
-            cursor.setAttribute('style', "top: "+0+"px; left: "+0+"px")
-        })
-    </script>
+    <script src="car.js"></script>
 </body>
+
 </html>
