@@ -90,9 +90,8 @@ background-color: inherit;
 }
 
   .joiners-page-container {
-    max-width: 50%;
+    max-width: 100%;
     padding: 25px;
-    align-self: left;
     background-color: inherit;
     border-radius: 12px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
